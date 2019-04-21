@@ -8,5 +8,6 @@ def my_select(collection)
    yield collection
    i+=1
  end
+ collection
  end
 end
