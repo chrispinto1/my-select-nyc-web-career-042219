@@ -4,10 +4,11 @@ def my_select(collection)
    return false
  else
    i=0
+   new_array = []
    while i < collection.size
-   yield collection[i]
+   new_array << yield collection[i]
    i+=1
  end
- collection
+ new_array
  end
 end
