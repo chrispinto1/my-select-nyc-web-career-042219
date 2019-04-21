@@ -5,7 +5,7 @@ def my_select(collection)
  else
    i=0
    while i < collection.size
-   yield collection
+   yield collection[i]
    i+=1
  end
  collection
